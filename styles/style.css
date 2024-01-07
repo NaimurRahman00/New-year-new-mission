@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -39,4 +39,33 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px; /* 131.944% */
+}
+
+/* Discount section here */
+.discount {
+    width: 60%;
+    margin: 120px auto;
+    font-family: Inter;
+    text-align: center;    
+}
+.discount h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.discount p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.discount h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.discount-img img {
+    width: 100%;
 }
