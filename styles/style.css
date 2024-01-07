@@ -118,3 +118,30 @@
     line-height: 30px; /* 166.667% */
     margin-bottom: 48px;
 }
+
+/* Event place and time section here */
+#event {
+    margin-bottom: 120px;
+}
+.event-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0 110px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: Inter;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.event-container h4 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+.event-container h4 .important {
+    color: #F00;
+}
