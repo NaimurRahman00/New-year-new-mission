@@ -4,6 +4,9 @@
     margin: 0;
 }
 /* All reusable classes */
+section {
+    margin: 120px auto;
+}
 .container {
     width: 82.5%;
     max-width: 1600px;
@@ -20,6 +23,9 @@
     background: #F00;
     padding: 16px 32px;
     border: none;
+}
+.important {
+    color: #F00;
 }
 
 /* Header section's styles */
@@ -82,9 +88,6 @@
 }
 
 /* Welcome party section's styles */
-#welcome-party {
-    margin-bottom: 120px;
-}
 .welcome-party-container {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
@@ -120,9 +123,6 @@
 }
 
 /* Event place and time section's styles'*/
-#event {
-    margin-bottom: 120px;
-}
 .event-container {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 0 110px;
@@ -141,9 +141,6 @@
     line-height: 56px;
     text-transform: capitalize;
     margin-bottom: 48px;
-}
-.event-container h4 .important {
-    color: #F00;
 }
 
 /* Coming soon section's styles */
@@ -206,4 +203,60 @@
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 43px;
+}
+
+/* Holiday section's styles here */
+.holiday-column-1 {
+    text-align: center;
+    margin-bottom: 64px;
+}
+.holiday-column-1 h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.holiday-column-1 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.holiday-column-1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 90%;
+    margin: auto;
+}
+.holiday-column-2 {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 0px;
+    position: relative;
+}
+.holiday-column-2 img {
+    width: 100%;
+}
+.holiday-column-2 .img-1{
+    position: absolute;
+    left: 30px;
+    top: 55px;
+    width: 700px;
+}
+.holiday-column-2 .img-2 {
+    position: absolute;
+    right: 270px;
+    top: 75px;
+}
+.holiday-column-2 .img-3 {
+    width: 429px;
+}
+.holiday-column-3 img {
+    width: 100%;
+    margin-top: -4px;
 }
