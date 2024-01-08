@@ -12,6 +12,12 @@ section {
     max-width: 1600px;
     margin: auto;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .btn {
     color: #FFF;
     text-align: center;
@@ -106,7 +112,10 @@ section {
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
-.welcome-party-container .column h2 {
+.welcome-party-container .column-1 {
+    width: 697px;
+}
+.welcome-party-container .column-1 h2 {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
@@ -114,13 +123,29 @@ section {
     letter-spacing: 7.04px;
     margin-bottom: 24px;
 }
-.welcome-party-container .column p {
+.welcome-party-container .column-1 p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
     margin-bottom: 48px;
+}
+.welcome-party-container .welcome-btn{
+    background-color: #d70000ff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.welcome-party-container .welcome-btn:hover {
+    background-color: #F00;
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -moz-transform: scale(1.015);
+    -ms-transform: scale(1.015);
+    -o-transform: scale(1.015);
 }
 
 /* Event place and time section's styles'*/
@@ -142,6 +167,22 @@ section {
     line-height: 56px;
     text-transform: capitalize;
     margin-bottom: 48px;
+}
+.event-container .event-btn {
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+.event-container .event-btn:hover {
+    background-color: rgb(224, 0, 0);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.277);
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -moz-transform: scale(1.015);
+    -ms-transform: scale(1.015);
+    -o-transform: scale(1.015);
 }
 
 /* Coming soon section's styles */
@@ -253,6 +294,18 @@ section {
     position: absolute;
     right: 270px;
     top: 75px;
+    transition: .5s all !important;
+    -webkit-transition: .5s all !important;
+    -moz-transition: .5s all !important;
+    -ms-transition: .5s all !important;
+    -o-transition: .5s all !important;
+}
+#animate:hover {
+    transform: rotate(33deg);
+    -webkit-transform: rotate(33deg);
+    -moz-transform: rotate(33deg);
+    -ms-transform: rotate(33deg);
+    -o-transform: rotate(33deg);
 }
 .holiday-column-2 .img-3 {
     width: 429px;
@@ -295,6 +348,26 @@ section {
 }
 .portfolio-row-2 .portfolio-img {
     width: 31.5%;
+}
+.portfolio-row-2 .portfolio-img img {
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.portfolio-row-2 .portfolio-img img:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.36);
+    transform:perspective(700px) scale(1.05);
+    -webkit-transform:perspective(700px) scale(1.05);
+    -moz-transform:perspective(700px) scale(1.05);
+    -ms-transform:perspective(700px) scale(1.05);
+    -o-transform:perspective(700px) scale(1.05);
 }
 .portfolio-row-2 .portfolio-img img {
     width: 100%;
@@ -348,6 +421,7 @@ section {
     -moz-border-radius: 50px 0 0 50px;
     -ms-border-radius: 50px 0 0 50px;
     -o-border-radius: 50px 0 0 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.178);
 }
 .subscribe form .subscribe-btn {
     border-radius: 0 50px 50px 0;
@@ -355,6 +429,7 @@ section {
     -moz-border-radius: 0 50px 50px 0;
     -ms-border-radius: 0 50px 50px 0;
     -o-border-radius: 0 50px 50px 0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.249);
 }
 
 /* Footer section's style */
@@ -389,4 +464,19 @@ footer {
 }
 .footer-row-2 img {
     margin: 12px;
+}
+.footer-row-3 a {
+    text-decoration: none;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    padding: 5px;
+}
+.footer-row-3 a p {
+    color: #F00;
+}
+.footer-row-3 a:hover {
+    border: 1px solid rgb(219, 219, 219);
 }
