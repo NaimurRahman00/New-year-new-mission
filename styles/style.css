@@ -23,6 +23,7 @@ section {
     background: #F00;
     padding: 16px 32px;
     border: none;
+    cursor: pointer;
 }
 .important {
     color: #F00;
@@ -354,4 +355,38 @@ section {
     -moz-border-radius: 0 50px 50px 0;
     -ms-border-radius: 0 50px 50px 0;
     -o-border-radius: 0 50px 50px 0;
+}
+
+/* Footer section's style */
+footer {
+    background: #070211;
+}
+.footer-container {
+    padding: 120px 0;
+}
+.footer-container hr {
+    background-color: #ffffff26;
+    height: 1px;
+    border: none;
+    margin: 50px 0;
+}
+.footer-row-1 img {
+    margin-right: 16px;
+}
+.footer-row-1, .footer-row-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-row-1 p, .footer-row-3 p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-row-2 {
+    text-align: center;
+}
+.footer-row-2 img {
+    margin: 12px;
 }
