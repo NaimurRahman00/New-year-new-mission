@@ -361,13 +361,14 @@ a:hover {
     -ms-border-radius: 18px;
     -o-border-radius: 18px;
 }
-.portfolio-row-2 .portfolio-img img:hover {
+.portfolio-row-2 .portfolio-img:hover img {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.36);
-    transform:perspective(700px) scale(1.05);
-    -webkit-transform:perspective(700px) scale(1.05);
-    -moz-transform:perspective(700px) scale(1.05);
-    -ms-transform:perspective(700px) scale(1.05);
-    -o-transform:perspective(700px) scale(1.05);
+    transform:perspective(700px) scale(1.01) rotateY(5deg);
+    -webkit-transform:perspective(700px) scale(1.01) rotateY(5deg);
+    -moz-transform:perspective(700px) scale(1.01) rotateY(5deg);
+    -ms-transform:perspective(700px) scale(1.01) rotateY(5deg);
+    -o-transform:perspective(700px) scale(1.01) rotateY(5deg);
+    background-color: #0000006d;
 }
 .portfolio-row-2 .portfolio-img img {
     width: 100%;
@@ -445,7 +446,7 @@ footer {
     border: none;
     margin: 50px 0;
 }
-.footer-row-1 img {
+.footer-row-1 i {
     margin-right: 16px;
 }
 .footer-row-1, .footer-row-3 {
@@ -464,6 +465,18 @@ footer {
 }
 .footer-row-2 img {
     margin: 12px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+.footer-row-2 img:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
 }
 .footer-row-3 a {
     text-decoration: none;
